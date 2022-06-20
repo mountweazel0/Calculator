@@ -1,6 +1,6 @@
 public class Main {
 
-    public static void main (String [] args) {
+    public static void main(String[] args) {
 
         Calculator calc = Calculator.instance.get();
 
@@ -10,5 +10,5 @@ public class Main {
 
         calc.println.accept(c);
     }
-    
+
 }
