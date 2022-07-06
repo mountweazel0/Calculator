@@ -11,7 +11,6 @@ public class Calculator {
         try {
             return x / y;
         } catch (Exception err) {
-            System.out.println("На ноль делить нельзя!");
         }
         return 0;
     };
